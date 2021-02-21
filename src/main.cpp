@@ -17,8 +17,6 @@ void setup()
     configManager.begin();
     WiFiManager.begin(configManager.data.projectName);
     timeSync.begin();
-
-    Serial.println("Hello world");
 }
 
 void loop() 
